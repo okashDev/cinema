@@ -53,6 +53,12 @@ const personalMovieDB = {
         }
     },
 
+    //    ВТОРОЙ СПОСОБ РЕШЕНИЯ ЭТОГО МЕТОДА (чаще используется на практике):
+    // toggleVisibleMyDB: function() {
+    //     personalMovieDB.privat = !personalMovieDB.privat;
+    // },
+    // при условии true - false
+
     writeYourGenres: function() {
         for(let i = 1; i < 2; i++) {
             let genres = prompt(`Ваши любимые через запятую,`).toLocaleLowerCase();
